@@ -1,4 +1,7 @@
-# Ejecutables
-*.out
-*.exe
-*.o
+# Ignorar todo
+*
+# Excepto carpetas, .c, .h y el propio .gitignore
+!*/
+!*.c
+!*.h
+!.gitignore
